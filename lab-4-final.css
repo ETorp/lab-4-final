@@ -8,7 +8,7 @@ html{background-color:#0b5394;}
 
 header{padding:35px;
 text-align:center;
-font-family:'Courier New', Courier, monospace;
+   font-family:'Courier New', Courier, monospace;
 background-color:#0b5394;
 color:#0c3357;
 }
@@ -19,20 +19,20 @@ color:#0c3357;
 
 
 .topnav a {
-  float: left;
+  text-align: center;
   display: block;
   color: #f2f2f2;
   font-family:'Courier New', Courier, monospace;
-  text-align: center;
+  
   padding: 15px 16px;
   text-decoration: none;}
 
-ul {
+.ul {
   list-style-type: none;
   margin: 0;
   padding: 0;}
 
-li{
+.li{
   list-style-type:none;
   width: 10px; 
   height;20px;
@@ -42,7 +42,7 @@ li{
 .topnav a:hover {
   background-color: #F7F3E3;
   color:#0c3357;
-  font-family:'Courier New', Courier, monospace;
+   font-family:'Courier New', Courier, monospace;
 border-radius:20px;}
 
 #flex-item1{
@@ -61,7 +61,7 @@ text-align: center;
 background-color:#CCB69B;
 font-size:25px;
 color:white;
-font-family:'Courier New', Courier, monospace;
+   font-family:'Courier New', Courier, monospace;
 border-radius:20px;
 }
 
@@ -108,14 +108,6 @@ h3{color:white;
   font-size:35px;
 }
 
-aside{float:left;
-width:50%;
-  background-color:#5eadf3;
-  border-radius: 20px;}
-
-bside{float:right;
-  width:50%;
-  background-color:#cdaa7e;}
 
 footer{text-align:center;
 background-color:#F7F3E3;
